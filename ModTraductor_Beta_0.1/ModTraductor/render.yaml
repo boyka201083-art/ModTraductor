@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: modtraductor
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    autoDeploy: true
